@@ -98,7 +98,6 @@ public class XMLManager{
                     Object[] objArr = new Object[namedArgMap.get(namedArgNames.get(i)).numOfRestrictedValues()];
                     for(int j = 0; j < objArr.length; j++){
                         writer.write("\t\t<" + RESTRICTED + ">" + p.getRestrictedValue(namedArgNames.get(i), j) + "</" + RESTRICTED + ">\n");
-
                     }
                 }
                 writer.write("\t\t<" + COUNT_OF_VALUES + ">" + p.getNumberOfAdditionalValues(namedArgNames.get(i))
