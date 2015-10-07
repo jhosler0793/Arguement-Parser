@@ -79,7 +79,7 @@ any order when the program is ran and no problems will occur.
 arguments will always be in the order added to the program and can not be re-ordered. These arguments are added only with the addPositionalArgument method
 shown in the first section.
 
-###6.) Grouping Arguments###
+###5.) Grouping Arguments###
 &emsp; Arguments can be placed into groups to call all of the arguments at once. This is best shown off in the NumberCrunch demo, where arguments
 are added into groups to add, subtract, or multiply the two given arguments. Groups can also be set to be mutually exclusive that is also shown in
 the NumberCrunch demo.
@@ -102,7 +102,7 @@ parser.addArgumentToGroup("sub", "Subtraction");
 *Result when demo is ran:*
 ![alt text](http://i.imgur.com/y10U8z0.png "Command line interface showing the result of calling two groups at once")
 
-###7.) Restricted Values###
+###6.) Restricted Values###
 &emsp; Arguments can also accept only certain values. This is show in the WritePizzaArgs demo. The user gives an object array to
 attach to the argument, and the argument will only accept those values.
 ````
@@ -115,7 +115,7 @@ parser.setRestrictedValues("size", restrictedSizes);
 
 If the user tries to give any other values to that argument, an exception will be thrown.
 
-###9.) Additional Values###
+###7.) Additional Values###
 &emsp; A named argument can hold more than one value. To do this the user would first set the argument to accept additional values by calling:
 ````
 parser.readyAdditionalValues("Box", 3);
@@ -130,7 +130,7 @@ When running the program through command line, the argument "Box" will take in t
 java -cp .;..\..\build\classes\main Demo -Box 10 20 30
 ````
 
-###9.) Save with an XML Manager###
+###8.) Save with an XML Manager###
 &emsp; When creating this program, our team was also tasked to write and read arguments from an XML file. This is used with the
 XMLManager class. It will save every part of the argument to a file including:
 - Arugment Name
@@ -140,7 +140,7 @@ XMLManager class. It will save every part of the argument to a file including:
 - Count of Additional Values
 - Default Values
 
-###10.) Error Handling with Created Exceptions###
+###9.) Error Handling with Created Exceptions###
 &emsp; There were nine different exceptions our group had to make to allow errors from our program to be more descriptive.
 
 1. **ArgumentAlreadyInGroupException** - Used for when the user tries to add an argument to a group the argument is already in.
@@ -153,7 +153,7 @@ XMLManager class. It will save every part of the argument to a file including:
 8. **UnknownArgumentException** - Thrown when the user tries to call an argument that has not been added to the parser.
 9. **NotInGroupException** - When a user tries to get the name of a group an argument is in, but the argument is not in a group, this exception is thrown.
 
-###11.) Javadoc API###
+###10.) Javadoc API###
 &emsp; This library comes with a documented javadoc API for the entire library.
 
 *The javadoc can be built by running the command* `gradle javadoc`
