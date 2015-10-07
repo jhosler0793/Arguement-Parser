@@ -53,7 +53,7 @@ Inside of the PizzaOrder demo is an argument parser with 6 different arguments. 
 of the arguments contain '-h' or '--help'. If it does, then the help will override any other functionality in the program.
 
 *Result when -h or -help is in the given values*
-![alt text](http://i.imgur.com/bgeu7DU.png "A command line interface showing how the help command will display information)
+![alt text](http://i.imgur.com/bgeu7DU.png "A command line interface showing how the help command will display information")
 
 ###3.) Named Arguments###
 &emsp; Named arguments in this program are optional arguments by default. Named arguments can be called by a specified shorthand when
@@ -170,7 +170,7 @@ included are almost ready to be used. In command line, move to where the gradle.
 and then execute the command `gradle build` to build the required files.
 
 *Upon seeing this screen, the demos will be ready to run.* 
-![alt text](http://i.imgur.com/YUsjSdB.png?raw=true "A command line interface displaying the successful compiling of the program.)
+![alt text](http://i.imgur.com/YUsjSdB.png?raw=true "A command line interface displaying the successful compiling of the program.")
 
 ##Demos##
 &emsp; All demos are available inside the demos folder. Inside are multiple demos
