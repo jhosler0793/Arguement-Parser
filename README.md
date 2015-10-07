@@ -170,8 +170,9 @@ included are almost ready to be used. In command line, move to where the gradle.
 and then execute the command `gradle build` to build the required files.
 
 *Upon seeing this screen, the demos will be ready to run.* 
-![alt text](http://i.imgur.com/YUsjSdB.png "A command line interface displaying the successful
-compiling of the program.)
+![alt text][compile-win]
+
+[compile-win](http://i.imgur.com/YUsjSdB.png "A command line interface displaying the successful compiling of the program.)
 
 ##Demos##
 &emsp; All demos are available inside the demos folder. Inside are multiple demos
