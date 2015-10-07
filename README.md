@@ -169,7 +169,7 @@ The API is located at:
 included are almost ready to be used. In command line, move to where the gradle.build file is
 and then execute the command `gradle build` to build the required files.
 
-*Upon seeing this screen, the demos will be ready to run.*
+*Upon seeing this screen, the demos will be ready to run.* 
 ![alt text](http://i.imgur.com/YUsjSdB.png "A command line interface displaying the successful
 compiling of the program.)
 
