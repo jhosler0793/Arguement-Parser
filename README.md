@@ -51,7 +51,7 @@ it will display the name and description of the program, and will also display h
 **Example:**
 Inside of the PizzaOrder demo is an argument parser with 6 different arguments. When the demo is ran it will check to see if any
 of the arguments contain '-h' or '--help'. If it does, then the help will override any other functionality in the program.
-
+*Result when -h or -help is in the given values*
 ![alt text](http://i.imgur.com/bgeu7DU.png "A command line interface showing how the help command will display information)
 
 ###3.) Named Arguments###
@@ -168,7 +168,7 @@ The API is located at:
 included are almost ready to be used. In command line, move to where the gradle.build file is
 and then execute the command `gradle build` to build the required files.
 
-Upon seeing this screen, the demostrations will be ready to run.
+*Upon seeing this screen, the demostrations will be ready to run.*
 ![alt text](http://i.imgur.com/YUsjSdB.png "A command line interface displaying the successful
 compiling of the program.)
 
